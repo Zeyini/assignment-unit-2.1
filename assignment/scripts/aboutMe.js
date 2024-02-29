@@ -65,12 +65,20 @@ console.log(diceRoll);
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
-//      set `petStatus` to the value of "I can have more pets" 
+//      set `petStatus` to the value of " can have more Ipets" 
 //      if the value of `pets` is equal to the value of `allowedPets`,
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-
+ let petStatus = " ";
+ if ( pets < allowedPets) {
+  petStatus = " can have more Ipets";
+ } else if (pets === allowedPets) {
+  petStatus = "I have enough pets";
+ } else if (pets > allowedPets) {
+  petStatus = "Oh no, I have too many pets!";
+ }
+console.log(petStatus);
 
 // STRETCH GOALS:
 
