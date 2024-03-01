@@ -1,6 +1,6 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = "Zeyini";
+let firstName = "zeyini";
 console.log(firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = "Mohammad";
@@ -19,7 +19,7 @@ console.log(luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = "my name is" + ' ' + firstName + "and I think" + ' ' + luckyNumber + ' ' + "is a winner!";
+let introduction = "my name is" + ' ' + fullName + "and I think" + ' ' + luckyNumber + ' ' + "is a winner!";
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
@@ -94,7 +94,7 @@ mostPets = pets;
   mostPets = pets;
  }
  console.log(mostPets);
- 
+
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1
@@ -106,9 +106,21 @@ mostPets = pets;
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
+console.log (luckyNumber);
 
+let luckyResult = " ";
 
-
+if (luckyNumber === 1)  {
+  luckyResult = "First is the worst";
+} else if (luckyNumber === 2) {
+  luckyResult = "Second is the best";
+} else if (luckyNumber === 3) {
+  luckyResult = "Third is the one with the polka dot dress";
+} else {
+  luckyResult = "Luck is what happens when preparation meets opportunity";
+}
+console.log (luckyResult);
+console.log (luckyResult);
 
 
 
