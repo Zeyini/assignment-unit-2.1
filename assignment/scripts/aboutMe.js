@@ -24,7 +24,7 @@ console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 let adventurous = true;
-console.log(true);
+console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
 let food = "pasta"  +  ' '  +  "pizza"  + '  '  + "burgers" + ' '  + "injera";
@@ -103,13 +103,12 @@ mostPets = pets;
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-
-console.log (luckyNumber);
+adventurous = true ? "Adventures are great!" : "How about we stay home";
+console.log(adventurous);
+console.log(adventurous);
 
 let luckyResult = " ";
-
 if (luckyNumber === 1)  {
   luckyResult = "First is the worst";
 } else if (luckyNumber === 2) {
@@ -121,10 +120,6 @@ if (luckyNumber === 1)  {
 }
 console.log (luckyResult);
 console.log (luckyResult);
-
-
-
-
 
 
 
